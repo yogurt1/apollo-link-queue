@@ -1,2 +1,7 @@
-import QueueLink from './QueueLink';
-export default QueueLink;
+import { withOffline } from './OfflineLink';
+import { createOfflineError } from './OfflineError';
+
+export {
+  createOfflineError,
+  withOffline
+}
